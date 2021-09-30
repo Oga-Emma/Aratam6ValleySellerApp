@@ -1,0 +1,58 @@
+name: sixvalley_vendor_app
+description: A new Flutter application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  connectivity: ^3.0.3
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.0-prev2
+  fl_chart: ^0.36.1
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_switch: ^0.3.0
+  get_it: ^6.0.0
+  image_picker: ^0.7.4
+  intl: ^0.17.0
+  provider: ^5.0.0
+  shared_preferences: ^2.0.5
+  shimmer: ^2.0.0-nullsafety.0
+  webview_flutter: ^2.0.2
+
+  firebase_core: ^1.0.1
+  firebase_database: ^8.0.0
+
+  overlay_support: ^1.2.1
+  agora_rtc_engine: ^4.0.1
+  permission_handler: ^8.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/language/
+
+  fonts:
+    - family: TitilliumWeb
+      fonts:
+        - asset: assets/font/titillium/TitilliumWeb-Regular.ttf
+        - asset: assets/font/titillium/TitilliumWeb-Italic.ttf
+        - asset: assets/font/titillium/TitilliumWeb-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/titillium/TitilliumWeb-Bold.ttf
+          weight: 700
+    - family: Roboto
+      fonts:
+        - asset: assets/font/roboto/Roboto-Regular.ttf
+        - asset: assets/font/roboto/Roboto-Bold.ttf
+          weight: 700
